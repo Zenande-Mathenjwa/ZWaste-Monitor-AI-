@@ -1,0 +1,404 @@
+{
+  "version": 4,
+  "app_title": "ZWaste Monitor AI Plan",
+  "nav": {
+    "placement": "none",
+    "items": []
+  },
+  "pages": [
+    {
+      "id": "page-966440fa",
+      "name": "Sign In",
+      "route": "/login",
+      "item_ref": {
+        "index": 0,
+        "text": "Set up persistent multi-tenant storage and OIDC sign-in with a purpose-built ZWaste login experience; enforce SUPER ADMIN, MUNICIPAL ADMIN, OPERATOR, DRIVER, ANALYST, and VIEWER permissions from an IdP `groups` claim (SUPER ADMIN via `zwaste-super-admins`, all other users fail closed to VIEWER), municipality isolation, source labels, and audit history. Establish the visual direction: a civic operations control room with deep forest/charcoal surfaces, safety-lime and amber status accents, condensed operational headings, highly legible body text, and a live waste-flow intelligence centerpiece."
+      },
+      "blocks": [
+        {
+          "id": "login-identity",
+          "type": "hero",
+          "label": "ZWaste identity panel",
+          "hint": "Civic operations branding, tagline, trust copy, and abstract waste-flow network illustration",
+          "x": 0,
+          "y": 0,
+          "w": 7,
+          "h": 12,
+          "item_ref": {
+            "index": 0,
+            "text": "Set up persistent multi-tenant storage and OIDC sign-in with a purpose-built ZWaste login experience; enforce SUPER ADMIN, MUNICIPAL ADMIN, OPERATOR, DRIVER, ANALYST, and VIEWER permissions from an IdP `groups` claim (SUPER ADMIN via `zwaste-super-admins`, all other users fail closed to VIEWER), municipality isolation, source labels, and audit history. Establish the visual direction: a civic operations control room with deep forest/charcoal surfaces, safety-lime and amber status accents, condensed operational headings, highly legible body text, and a live waste-flow intelligence centerpiece."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "login-form",
+          "type": "form",
+          "label": "Secure sign-in card",
+          "hint": "Identity-provider button, privacy note, and access guidance",
+          "x": 7,
+          "y": 0,
+          "w": 5,
+          "h": 12,
+          "item_ref": {
+            "index": 0,
+            "text": "Set up persistent multi-tenant storage and OIDC sign-in with a purpose-built ZWaste login experience; enforce SUPER ADMIN, MUNICIPAL ADMIN, OPERATOR, DRIVER, ANALYST, and VIEWER permissions from an IdP `groups` claim (SUPER ADMIN via `zwaste-super-admins`, all other users fail closed to VIEWER), municipality isolation, source labels, and audit history. Establish the visual direction: a civic operations control room with deep forest/charcoal surfaces, safety-lime and amber status accents, condensed operational headings, highly legible body text, and a live waste-flow intelligence centerpiece."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-8b09efae",
+      "name": "Municipality Operations",
+      "route": "/operations",
+      "item_ref": {
+        "index": 1,
+        "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+      },
+      "blocks": [
+        {
+          "id": "operations-nav",
+          "type": "sidebar",
+          "label": "Primary navigation",
+          "hint": "Overview, Operations, Fleet, Map, Intelligence, Reports with role-aware visibility",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "operations-header",
+          "type": "header",
+          "label": "Operations header",
+          "hint": "Municipality selector, global search, alert count, user menu and provenance filter",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "operations-scorecard",
+          "type": "kpi",
+          "label": "Municipality scorecard",
+          "hint": "Entity counts, generated/collected/uncollected waste, critical bins, alerts and AI risk",
+          "x": 2,
+          "y": 2,
+          "w": 10,
+          "h": 3,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "operations-tabs",
+          "type": "tabs",
+          "label": "Entity modules",
+          "hint": "Municipalities, institutions, businesses, hospitals, waste types, bins and waste records",
+          "x": 2,
+          "y": 5,
+          "w": 10,
+          "h": 1,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "operations-table",
+          "type": "table",
+          "label": "Operational records",
+          "hint": "Searchable/filterable records with status, source, history and authorised actions",
+          "x": 2,
+          "y": 6,
+          "w": 7,
+          "h": 6,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "operations-detail",
+          "type": "text",
+          "label": "Record detail and editor",
+          "hint": "Validated create/edit form, history timeline, sensor readings and deactivation action",
+          "x": 9,
+          "y": 6,
+          "w": 3,
+          "h": 6,
+          "item_ref": {
+            "index": 1,
+            "text": "Build the municipality operations workspace with a responsive navigation shell, municipality selector and profile scorecard, searchable/filterable CRUD for municipalities, institutions, businesses, hospitals, configurable waste types, bins/containers, sensor history, and waste records; include validation, deactivation, detail/history views, source provenance, empty/loading/error states, and realistic demo seed data clearly labelled SIMULATED."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-67d8f798",
+      "name": "Fleet & Field Map",
+      "route": "/fleet",
+      "item_ref": {
+        "index": 2,
+        "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+      },
+      "blocks": [
+        {
+          "id": "fleet-nav",
+          "type": "sidebar",
+          "label": "Primary navigation",
+          "hint": "Overview, Operations, Fleet, Map, Intelligence and Reports",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "fleet-header",
+          "type": "header",
+          "label": "Fleet command header",
+          "hint": "Municipality, shift status, route date and operational actions",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "fleet-map",
+          "type": "map",
+          "label": "Live field operations map",
+          "hint": "Bins, entities, vehicles, reports, alerts and collection routes with layered filters",
+          "x": 2,
+          "y": 2,
+          "w": 7,
+          "h": 7,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "fleet-filters",
+          "type": "form",
+          "label": "Map and route filters",
+          "hint": "Entity, waste type, alert level, bin status and vehicle status",
+          "x": 9,
+          "y": 2,
+          "w": 3,
+          "h": 3,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "fleet-routes",
+          "type": "list",
+          "label": "Recommended route queue",
+          "hint": "Priority stops, explanation, capacity check and human approval controls",
+          "x": 9,
+          "y": 5,
+          "w": 3,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "fleet-table",
+          "type": "table",
+          "label": "Vehicles and drivers",
+          "hint": "Assignments, load, fuel/battery, maintenance, status and performance",
+          "x": 2,
+          "y": 9,
+          "w": 6,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "gatez-simulator",
+          "type": "form",
+          "label": "GateZ device simulator",
+          "hint": "Fill, temperature, battery, status, location and timestamp validation",
+          "x": 8,
+          "y": 9,
+          "w": 4,
+          "h": 4,
+          "item_ref": {
+            "index": 2,
+            "text": "Build fleet and field operations with drivers, vehicles, assignments, route stops and status workflows, a geographic monitoring view with entity/bin/vehicle/alert filters, and a GateZ device simulator that validates readings and sends them through the same sensor-processing pipeline to update bins, generate alerts, and support route recommendations."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    },
+    {
+      "id": "page-ba6844f9",
+      "name": "Intelligence & Reports",
+      "route": "/intelligence",
+      "item_ref": {
+        "index": 3,
+        "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+      },
+      "blocks": [
+        {
+          "id": "intelligence-nav",
+          "type": "sidebar",
+          "label": "Primary navigation",
+          "hint": "Overview, Operations, Fleet, Map, Intelligence and Reports",
+          "x": 0,
+          "y": 0,
+          "w": 2,
+          "h": 12,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "intelligence-header",
+          "type": "header",
+          "label": "Intelligence header",
+          "hint": "Municipality, time range, source filter, refresh and report actions",
+          "x": 2,
+          "y": 0,
+          "w": 10,
+          "h": 2,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "waste-flow-chart",
+          "type": "chart_bar",
+          "label": "Waste flow analytics",
+          "hint": "Visible daily, weekly and monthly generated versus collected bars",
+          "x": 2,
+          "y": 2,
+          "w": 5,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "waste-composition",
+          "type": "chart_pie",
+          "label": "Waste composition",
+          "hint": "Waste by entity and configurable waste type with recovery share",
+          "x": 7,
+          "y": 2,
+          "w": 3,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "municipality-score",
+          "type": "text",
+          "label": "Performance score",
+          "hint": "Decision-support score with factors, confidence and non-official disclaimer",
+          "x": 10,
+          "y": 2,
+          "w": 2,
+          "h": 4,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "prediction-list",
+          "type": "list",
+          "label": "Predictions and alerts",
+          "hint": "Overflow forecasts, confidence, reasoning, anomaly flags and recommended actions",
+          "x": 2,
+          "y": 6,
+          "w": 5,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "rhooms-chat",
+          "type": "chat",
+          "label": "Rhooms assistant",
+          "hint": "Grounded municipal data questions with concise answers and source context",
+          "x": 7,
+          "y": 6,
+          "w": 3,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        },
+        {
+          "id": "reports-api",
+          "type": "text",
+          "label": "Reports and API access",
+          "hint": "Report builder, CSV/PDF exports, endpoint guidance and future-household status",
+          "x": 10,
+          "y": 6,
+          "w": 2,
+          "h": 5,
+          "item_ref": {
+            "index": 3,
+            "text": "Build the intelligence and reporting workspace with daily/weekly/monthly and entity/area/type analytics, municipal performance score explanations, transparent overflow forecasts and anomaly detection, prioritised alerts, human-approved collection/vehicle/route recommendations, a data-grounded Rhooms assistant, CSV/PDF report exports, shared secure API endpoints for core entities/sensor readings/analysis, API guidance, and inactive future-household architecture. Complete the end-to-end demonstration workflow and developer documentation without presenting simulated data or recommendations as verified municipal facts."
+          },
+          "type_source": "palette"
+        }
+      ],
+      "deleted_ids": []
+    }
+  ],
+  "attached_to_plan": false
+}
